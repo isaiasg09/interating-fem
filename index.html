@@ -31,15 +31,25 @@
       </div>
 
       <form action="#">
-        <div>
-          <input type="radio" name="rating" id="r-1" />
+        <div class="rating-box">
+          <input
+          type="radio"
+          name="rating"
+          id="r-1"
+          onclick="console.log(this)"
+          />
+          <label for="r-1">1</label>
           <input type="radio" name="rating" id="r-2" />
+          <label for="r-2">2</label>
           <input type="radio" name="rating" id="r-3" />
+          <label for="r-3">3</label>
           <input type="radio" name="rating" id="r-4" />
+          <label for="r-4">4</label>
           <input type="radio" name="rating" id="r-5" />
+          <label for="r-5">5</label>
         </div>
 
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </main>
 
