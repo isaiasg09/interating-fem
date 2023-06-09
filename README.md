@@ -17,7 +17,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -38,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/isaiasg09/interating-fem)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/isaiasg09/interating-fem)
+- Live Site URL: [Site](https://isaiasg09.github.io/interating-fem/)
 
 ## My process
 
@@ -69,23 +68,17 @@ const proudOfThisFunc = () => {
 }
 ``` -->
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 <!-- Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
 <!-- - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
 - Frontend Mentor - [@isaiasg09](https://frontendmentor.io/profile/isaiasg09)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
