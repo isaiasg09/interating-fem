@@ -30,22 +30,21 @@
         </p>
       </div>
 
-      <form action="#">
+      <form action="#" onsubmit="handleSubmit(event)">
         <div class="rating-box">
           <input
-          type="radio"
-          name="rating"
-          id="r-1"
-          onclick="console.log(this)"
+            type="radio"
+            name="rating"
+            id="r-1"
           />
           <label for="r-1">1</label>
-          <input type="radio" name="rating" id="r-2" />
+          <input value="1" type="radio" name="rating" id="r-2" />
           <label for="r-2">2</label>
-          <input type="radio" name="rating" id="r-3" />
+          <input value="2" type="radio" name="rating" id="r-3" />
           <label for="r-3">3</label>
-          <input type="radio" name="rating" id="r-4" />
+          <input value="3" type="radio" name="rating" id="r-4" />
           <label for="r-4">4</label>
-          <input type="radio" name="rating" id="r-5" />
+          <input value="4" type="radio" name="rating" id="r-5" />
           <label for="r-5">5</label>
         </div>
 
@@ -70,7 +69,10 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/isaiasg09">Isaias</a>.
+      >. Coded by
+      <a href="https://github.com/isaiasg09" target="_blank">Isaias</a>.
     </footer>
+
+    <script src="./script.js"></script>
   </body>
 </html>
