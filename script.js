@@ -1,3 +1,5 @@
+const thankYouElement = document.querySelector(".thank-you");
+const ratingElement = document.querySelector(".rating");
 var rating;
 
 function handleSubmit(form) {
@@ -14,5 +16,23 @@ function handleSubmit(form) {
     }
   }
 
-  // console.log(rating);
+  if (!rating) {
+    alert("Please select a rating!");
+  } else {
+    changeState();
+  }
+}
+
+function changeState() {
+  const ratingSpanElement = document.getElementById("rating-span");
+
+  ratingElement.style.animation = "fadeOut 0.7s forwards";
+
+  setTimeout(() => {
+    thankYouElement.style.display = "block";
+    ratingElement.style.display = "none";
+    thankYouElement.style.animation = "fadeIn 0.7s forwards";
+  }, 700);
+
+  ratingSpanElement.innerHTML = rating;
 }

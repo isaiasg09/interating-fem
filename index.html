@@ -18,7 +18,7 @@
   <body>
     <!-- Rating state start -->
 
-    <main>
+    <main class="rating">
       <img src="./images/icon-star.svg" alt="star icon" class="star-icon" />
 
       <div class="heading">
@@ -32,11 +32,7 @@
 
       <form action="#" onsubmit="handleSubmit(event)">
         <div class="rating-box">
-          <input
-            type="radio"
-            name="rating"
-            id="r-1"
-          />
+          <input type="radio" name="rating" id="r-1" />
           <label for="r-1">1</label>
           <input value="1" type="radio" name="rating" id="r-2" />
           <label for="r-2">2</label>
@@ -56,12 +52,24 @@
 
     <!-- Thank you state start -->
 
-    <div style="display: none">
-      You selected
-      <!-- Add rating here -->
-      out of 5 Thank you! We appreciate you taking the time to give a rating. If
-      you ever need more support, don’t hesitate to get in touch!
-    </div>
+    <main class="thank-you" style="display: none">
+      <img
+        src="./images/illustration-thank-you.svg"
+        alt="thank you illustration"
+      />
+
+      <div class="selected-rating">
+        You selected
+        <span id="rating-span"></span>
+        out of 5
+      </div>
+
+      <h1>Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don’t hesitate to get in touch!
+      </p>
+    </main>
 
     <!-- Thank you state end -->
 
